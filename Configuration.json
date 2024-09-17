@@ -1,0 +1,40 @@
+{
+    "logs": {
+        "level": "debug",
+        "transports": {
+            "console": {
+                "enabled": false
+            },
+            "file": {
+                "enabled": false,
+                "name": "refinitiv-data-lib.log"
+            }
+        }
+    },
+    "sessions": {
+        "default": "platform.rdp",
+        "platform": {
+            "rdp": {
+                "app-key": "424a38a356a54ff79589823b2b154e67adf59fe8",
+                "username": "ys2799@york.ac.uk",
+                "password": "Y@sh$3918"
+            },
+            "deployed": {
+                "app-key": "424a38a356a54ff79589823b2b154e67adf59fe8",
+                "realtime-distribution-system": {
+                    "url": "YOUR DEPLOYED HOST:PORT GOES HERE!",
+                    "dacs": {
+                        "username": "ys2799@york.ac.uk",
+                        "application-id": 256,
+                        "position": ""
+                    }
+                }
+            }
+        },
+        "desktop": {
+            "workspace": {
+                "app-key": "424a38a356a54ff79589823b2b154e67adf59fe8"
+            }
+        }
+    }
+}
